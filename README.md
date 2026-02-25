@@ -1,94 +1,91 @@
-# PalindromeChecker
+# UseCase1 – Application Entry & Welcome Message
 
 ## 🧠 Objective
-This project is a simple Java console application that checks whether a given input (string or number) is a palindrome.
+This use case demonstrates the basic structure of a Java console application and displays a welcome message when the program starts.
 
-A palindrome is a word, number, or sequence that reads the same forward and backward.  
-Examples: madam, racecar, 121
+It focuses on understanding the entry point of a Java program and console output.
 
 ---
 
-## ⚙️ Running Procedure
+## 🎯 Goal
+Display a formatted welcome message when the application starts.
 
-1. Clone the repository:
+---
+
+## 👤 Actor
+User (Program runs and displays information automatically)
+
+---
+
+## 🔄 Flow
+
+1. Program starts
+2. Main method is executed
+3. Welcome message is displayed
+4. Program exits
+
+---
+
+## 📚 Key Concepts Used
+
+- **Class** – A container that holds program logic.
+- **Main Method** – Entry point of Java application  
+  ```java
+  public static void main(String[] args)
+  ```
+- **Static Keyword** – Allows JVM to execute main() without creating an object.
+- **Console Output** – `System.out.println()` is used to display text on the console.
+- **String Literals** – Text inside double quotes ("Welcome").
+
+---
+
+## 🛠 Data Structure Used
+None (Only basic string output)
+
+---
+
+## ⚙️ How to Run
+
+1. Compile the program:
    ```bash
-   git clone https://github.com/ditodileep050/PalindromeChecker.git
+   javac UseCase1PalindromeCheckerApp.java
    ```
 
-2. Navigate to the project folder:
+2. Run the program:
    ```bash
-   cd PalindromeChecker
+   java UseCase1PalindromeCheckerApp
    ```
 
-3. Compile the Java file:
-   ```bash
-   javac PalindromeChecker.java
-   ```
-
-4. Run the program:
-   ```bash
-   java PalindromeChecker
-   ```
-
-5. Enter input when prompted.
-
 ---
 
-## 🔄 Flow of the Project
+## 📌 Example Output
 
-- Take input from the user
-- Convert input to lowercase (optional)
-- Reverse the input
-- Compare original and reversed input
-- Display result (Palindrome / Not a Palindrome)
-
----
-
-## 📚 Topics Covered
-
-- Java Basics
-- String Handling
-- Loops (for / while)
-- Conditional Statements (if-else)
-- Functions / Methods
-- User Input using Scanner
-
----
-
-## 🚀 Features
-
-- Works for both strings and numbers
-- Case-insensitive checking
-- Simple and efficient logic
-- Easy to understand
-
----
-
-## 📌 Example
-
-**Input:**
 ```
-madam
-```
-
-**Output:**
-```
-It is a Palindrome
+=================================
+      Palindrome Checker App
+           Version 1.0
+=================================
+Welcome to the Palindrome Checker Application!
+This application checks whether a given string is a palindrome.
+=================================
 ```
 
 ---
 
-## 🛠️ Future Enhancements
+## 🚀 Learning Outcome
 
-- Add GUI using Java Swing / JavaFX
-- Ignore spaces and special characters
-- Convert into web or mobile app
-- Add multiple test case support
+This use case helps in understanding:
+
+- Structure of a Java program
+- Importance of the main method
+- How JVM executes a program
+- Console printing
+- Basic program execution flow
 
 ---
 
 ## 👨‍💻 Author
 
-Dito Dileep
+Dito Dileep  
 B.Tech Computer Science (AI & ML)  
 SRM Institute of Science and Technology
