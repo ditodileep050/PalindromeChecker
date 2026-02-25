@@ -1,7 +1,7 @@
-# palindromecheckerapp
+# PalindromeChecker
 
 ## 🧠 Objective
-This project is a simple Java application that checks whether a given input (string or number) is a palindrome.
+This project is a simple Java console application that checks whether a given input (string or number) is a palindrome.
 
 A palindrome is a word, number, or sequence that reads the same forward and backward.  
 Examples: madam, racecar, 121
@@ -11,16 +11,24 @@ Examples: madam, racecar, 121
 ## ⚙️ Running Procedure
 
 1. Clone the repository:
-   https://github.com/ditodileep050/PalindromeChecker
+   ```bash
+   git clone https://github.com/ditodileep050/PalindromeChecker.git
+   ```
 
 2. Navigate to the project folder:
-   cd palindrome-checker-app
+   ```bash
+   cd PalindromeChecker
+   ```
 
 3. Compile the Java file:
+   ```bash
    javac PalindromeChecker.java
+   ```
 
 4. Run the program:
+   ```bash
    java PalindromeChecker
+   ```
 
 5. Enter input when prompted.
 
@@ -47,16 +55,6 @@ Examples: madam, racecar, 121
 
 ---
 
-## 💡 Use Cases
-
-- Beginner Java practice project
-- Helps understand string manipulation
-- Useful for coding interview preparation
-- Logic building and problem solving
-- Educational demonstration
-
----
-
 ## 🚀 Features
 
 - Works for both strings and numbers
@@ -68,11 +66,15 @@ Examples: madam, racecar, 121
 
 ## 📌 Example
 
-Input:
+**Input:**
+```
 madam
+```
 
-Output:
+**Output:**
+```
 It is a Palindrome
+```
 
 ---
 
@@ -85,14 +87,8 @@ It is a Palindrome
 
 ---
 
-## 📂 Project Structure
+## 👨‍💻 Author
 
-palindrome-checker-app/
-│── PalindromeChecker.java
-│── README.md
-
----
-
-## 👩‍💻 Author
-
-- Your Name
+Dito Dileep
+B.Tech Computer Science (AI & ML)  
+SRM Institute of Science and Technology
